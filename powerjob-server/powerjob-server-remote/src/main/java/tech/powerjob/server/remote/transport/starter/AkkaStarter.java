@@ -37,6 +37,7 @@ public class AkkaStarter {
 
     public static void init() {
 
+        // 开始计时
         Stopwatch stopwatch = Stopwatch.createStarted();
         log.info("[PowerJob] PowerJob's akka system start to bootstrap...");
 

@@ -13,7 +13,7 @@ import lombok.experimental.Accessors;
  */
 @Getter
 @Setter
-@Accessors(chain = true)
+@Accessors(chain = true) // https://blog.csdn.net/weixin_38229356/article/details/82937420
 public class RemoteProcessReq implements PowerSerializable {
 
     private String className;

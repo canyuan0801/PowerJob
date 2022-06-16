@@ -17,6 +17,10 @@ import java.util.Properties;
 @Slf4j
 public class PropertyUtils {
 
+
+    /**
+     * 启动时加载配置文件，以便后续使用
+     */
     private static final Properties PROPERTIES = new Properties();
 
     public static Properties getProperties() {
